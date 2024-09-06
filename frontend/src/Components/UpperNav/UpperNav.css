@@ -1,0 +1,182 @@
+ .uppernav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 50px;
+   
+    
+ }
+ 
+.uppernav p{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+
+
+.navbar1{
+
+    display: flex;
+    justify-content: space-around;
+   height: 90px;
+
+}
+
+.nav1-logo{
+    display: flex;
+   justify-content: center;
+   width: 300px; 
+  height: 50px; 
+  object-fit: contain;
+
+  
+}
+
+.navbar1 {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.nav1-logo img {
+    height: 50px; 
+}
+
+.search-bar {
+    display: flex;
+    width: 800px;
+    height: 60%;
+    cursor: pointer;
+    align-items: center;
+    background-color: rgb(240, 229, 229); 
+    border-radius: 5px; 
+    padding: 1px 1px; 
+    margin-left: 20px; 
+}
+.search-bar :hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+.search-bar input {
+    border: none;
+    outline: none; 
+    background-color: rgb(34, 32, 32);
+    color: white; 
+     flex-grow: 0.8;
+      
+    padding: 19px; 
+    width: 100px;
+  
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-text {
+    margin-left: 2px; 
+    color: rgb(39, 37, 37); 
+}
+
+.navbar1{
+    background-color: black
+}  
+.login-icon{
+  
+    color:white;
+   
+}
+
+/* LoginSection.css */
+.login-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .icon-wrapper {
+    width: 40px;
+    height: 40px;
+    background-color: #fff; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+  }
+  .login-section :hover{
+    border-radius: 10%;
+  }
+  
+  .login-text {
+    font-size: 16px;
+    color: white; 
+  }
+ 
+
+  .nav-login-cart {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .nav-login-cart img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: white;
+    /* border:2px solid white;  */
+    margin-left: 80px;
+  }
+  .nav-cart-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red; 
+    color:white;
+    border-radius: 50%; 
+    padding: 0.2em 0.5em; 
+    font-size: 0.8em;
+  }
+
+
+
+
+
+
+
+
+
+  /* src/Components/UpperNav/UpperNav.css */
+
+/* .nav-login-cart {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav-cart-count {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+}
+
+.login-text {
+  margin-left: 8px;
+} */

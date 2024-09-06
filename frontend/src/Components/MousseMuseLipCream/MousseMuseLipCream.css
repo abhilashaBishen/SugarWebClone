@@ -1,0 +1,62 @@
+.mousse-muse {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .line {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(212, 9, 128);
+    margin: 0 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color:black;
+  }
+  
+  .image-container {
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px; /* Adjust as needed */
+  }
+  
+  .close-button {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  

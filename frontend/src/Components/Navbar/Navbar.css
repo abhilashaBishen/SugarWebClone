@@ -1,0 +1,38 @@
+.navbar{
+    display :flex;
+    justify-content: space-around;
+    padding:8px;
+    margin-bottom: -14px;
+    box-shadow: 0 1px 3px -2px black;
+    background-color: rgb(24, 23, 23);
+}
+.nav-menu  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap:90px;
+   color:white;
+   font-weight: 600;
+   font-size: large;
+
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap:3px;
+   color:white;
+   font-weight: 600;
+   font-size: large;
+    cursor: pointer;
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: rgb(136, 31, 89);
+}

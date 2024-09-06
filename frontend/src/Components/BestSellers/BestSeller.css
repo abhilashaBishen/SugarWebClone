@@ -1,0 +1,79 @@
+.bestseller {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    background-image:url('../Assets/SquareImage/img3.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 70vh; 
+    width: 90vw;
+    margin-left: 60px;
+    color: white
+  }
+  
+  .text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Space between text and products */
+    width: 100%;
+  }
+  
+  .line {
+    flex: 1;
+    height: 2px;
+    background-color: rgba(202, 62, 144, 0.788);
+    margin: 0 15px;
+  }
+  
+  .bestseller-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .product-card {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 6px;
+    flex: 1;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-card img {
+    width: 80%;
+    border-radius: 10px;
+  }
+  
+  .product-info {
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .product-info h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .product-info p {
+    font-size: 16px;
+    color: #888;
+  }
+  

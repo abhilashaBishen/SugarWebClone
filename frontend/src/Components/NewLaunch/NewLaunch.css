@@ -1,0 +1,46 @@
+.launch {
+    text-align: center; /* Centers the text and image */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .text {
+    font-size: 2em; /* Adjust font size as needed */
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 20px; /* Space between text and image */
+  }
+  
+  .text::before,
+  .text::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    
+
+    width: 39%; 
+    /* Adjust the width of the pink lines */
+    height: 2px; /* Adjust the thickness of the pink lines */
+    background-color: rgb(211, 32, 62); /* Pink color for the lines */
+  }
+  
+  .text::before {
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .text::after {
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  img {
+    max-width: calc(100% - 40px); /* Full width with a gap on both sides */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image */
+    cursor: pointer;
+  }
+  img:hover{
+    box-shadow: rgba(209, 4, 117, 0.2) 0px 50px 100px -20px, rgba(105, 3, 80, 0.3) 0px 30px 60px -30px, rgba(119, 4, 113, 0.3) 0px -2px 6px 0px inset;
+  }
+  

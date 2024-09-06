@@ -1,0 +1,62 @@
+.gift-combo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    width: 100%; 
+    max-width: 1500px; 
+    margin: 0 auto; 
+    background-image: url("../Assets/SquareImage/img3.jpg");
+  }
+  
+  .section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    margin: 0 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: rgb(218, 138, 151);
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 20px;
+  }
+  
+  .product-card {
+    width: 22%; 
+    height: auto;
+    background-color: rgb(240, 230, 230);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover; 
+  }
+  
