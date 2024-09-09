@@ -62,7 +62,7 @@
     display: flex;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ebe5e5;
   }
   
   .cart-item-img {
